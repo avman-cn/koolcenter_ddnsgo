@@ -25,7 +25,7 @@ get_fw_type() {
 			FW_TYPE_NAME="${KS_TAG}官改固件"
 		else
 			FW_TYPE_CODE="4"
-			FW_TYPE_NAME="koolshare梅林改版固件"
+			FW_TYPE_NAME="koolcenter梅林改版固件"
 		fi
 	else
 		if [ "$(uname -o|grep Merlin)" ];then
@@ -71,7 +71,7 @@ exit_install(){
 	local state=$1
 	case $state in
 		1)
-			echo_date "本插件适用于【koolshare 梅林改/官改 hnd/axhnd/axhnd.675x】固件平台！"
+			echo_date "本插件适用于【koolcenter 梅林改/官改 hnd/axhnd/axhnd.675x】固件平台！"
 			echo_date "你的固件平台不能安装！！!"
 			echo_date "本插件支持机型/平台：https://github.com/koolshare/rogsoft#rogsoft"
 			echo_date "退出安装！"

@@ -1,12 +1,12 @@
 # Koolcenter ddns-go
 
-华硕 / 梅林（koolshare 软件中心）平台的 **DDNS-Go** 插件，把 [ddns-go](https://github.com/jeessy2/ddns-go) 内核封装成可在路由器 Web 界面里一键安装、启停和守护的插件。
+华硕 / 梅林（koolcenter 软件中心）平台的 **DDNS-Go** 插件，把 [ddns-go](https://github.com/jeessy2/ddns-go) 内核封装成可在路由器 Web 界面里一键安装、启停和守护的插件。
 
-- 项目地址 / 问题反馈：<https://github.com/avman-cn/Koolcenter_ddns-go>
+- 项目地址 / 问题反馈：<https://github.com/avman-cn/koolcenter_ddnsgo>
 - 更新日志：[Changelog.txt](Changelog.txt)
 - DDNS-Go 内核（上游，本仓库不修改）：<https://github.com/jeessy2/ddns-go>
 
-> 本项目只是 koolshare 软件中心的**插件封装层**，DDNS 解析能力全部来自上游 `ddns-go` 内核，内核的仓库地址与版本发布均以上游为准。
+> 本项目只是 koolcenter 软件中心的**插件封装层**，DDNS 解析能力全部来自上游 `ddns-go` 内核，内核的仓库地址与版本发布均以上游为准。
 
 ---
 
@@ -23,13 +23,13 @@
 
 ## 适配平台
 
-- 仅支持 **koolshare 梅林改 / 官改** 固件（hnd / axhnd / axhnd.675x 平台）。
+- 仅支持 **koolcenter 梅林改 / 官改** 固件（hnd / axhnd / axhnd.675x 平台）。
 - 安装脚本会校验 `/koolshare` 目录、`/usr/bin/skipd` 以及内核版本（`uname -r` 主次版本号 ≥ 41），不满足则拒绝安装。
 - 已适配 ASUSWRT / ROG / TUF 皮肤。
 
 ## 安装
 
-1. 从 [Releases](https://github.com/avman-cn/Koolcenter_ddns-go/releases) 下载 `ddnsgo.tar.gz`（或自行构建，见下文）。
+1. 从 [Releases](https://github.com/avman-cn/koolcenter_ddnsgo/releases) 下载 `ddnsgo.tar.gz`（或自行构建，见下文）。
 2. 打开路由器 **软件中心 → 离线安装**，上传该压缩包并安装。
 3. 安装完成后进入 **软件中心 → DDNS-Go**，点击「开启」。
 4. 点击「访问 DDNS-Go」进入内核面板，配置 DNS 服务商与域名解析规则（配置保存在 `/koolshare/configs/ddnsgo/default.yaml`）。
@@ -102,6 +102,6 @@ python build.py
 ## 致谢与许可
 
 - DDNS 解析内核：[jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)（MIT）
-- 插件框架参考 koolshare 软件中心插件规范
+- 插件框架参考 koolcenter 软件中心插件规范
 - 文档整理与维护脚本的部分工作由吃白饭的大肥鱼（deepseek）协助完成
 - 本项目基于 [MIT License](LICENSE) 开源
