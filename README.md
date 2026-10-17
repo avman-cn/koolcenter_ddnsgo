@@ -103,4 +103,5 @@ python build.py
 
 - DDNS 解析内核：[jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)（MIT）
 - 插件框架参考 koolshare 软件中心插件规范
+- 文档整理与维护脚本的部分工作由 AI 助手 DeepSeek（社区戏称「吃白饭的大肥鱼」）协助完成
 - 本项目基于 [MIT License](LICENSE) 开源
