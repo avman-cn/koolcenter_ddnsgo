@@ -2,7 +2,7 @@
 
 华硕 / 梅林（koolcenter 软件中心）平台的 **DDNS-Go** 插件，把 [ddns-go](https://github.com/jeessy2/ddns-go) 内核封装成可在路由器 Web 界面里一键安装、启停和守护的插件。
 
-- 项目地址 / 问题反馈：<https://github.com/avman-cn/koolcenter_ddnsgo>
+- 项目地址 / 问题反馈：<https://github.com/2TimesMeta/koolcenter_ddnsgo>
 - 更新日志：[Changelog.txt](Changelog.txt)
 - DDNS-Go 内核（上游，本仓库不修改）：<https://github.com/jeessy2/ddns-go>
 
@@ -29,7 +29,7 @@
 
 ## 安装
 
-1. 从 [Releases](https://github.com/avman-cn/koolcenter_ddnsgo/releases) 下载 `ddnsgo.tar.gz`（或自行构建，见下文）。
+1. 从 [Releases](https://github.com/2TimesMeta/koolcenter_ddnsgo/releases) 下载 `ddnsgo.tar.gz`（或自行构建，见下文）。
 2. 打开路由器 **软件中心 → 离线安装**，上传该压缩包并安装。
 3. 安装完成后进入 **软件中心 → DDNS-Go**，点击「开启」。
 4. 点击「访问 DDNS-Go」进入内核面板，配置 DNS 服务商与域名解析规则（配置保存在 `/koolshare/configs/ddnsgo/default.yaml`）。
